@@ -1,4 +1,4 @@
-package PageObject;
+package Tests.PageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

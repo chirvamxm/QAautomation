@@ -1,4 +1,4 @@
-package LessonsPractice.HWL6;
+package LessonsPractice;
 
 import org.testng.annotations.Test;
 

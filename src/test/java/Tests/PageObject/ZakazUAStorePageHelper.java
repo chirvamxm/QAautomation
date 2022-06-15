@@ -1,4 +1,4 @@
-package PageObject;
+package Tests.PageObject;
 
 public class ZakazUAStorePageHelper {
 

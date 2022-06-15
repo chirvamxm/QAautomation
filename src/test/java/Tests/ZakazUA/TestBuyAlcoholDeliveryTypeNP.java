@@ -1,8 +1,8 @@
 package Tests.ZakazUA;
 
-import PageObject.ZakazUAHomePageWebElements;
-import PageObject.ZakazUAResultsPageWebElements;
-import PageObject.ZakazUAStorePageWebElements;
+import Tests.PageObject.ZakazUAHomePageWebElements;
+import Tests.PageObject.ZakazUAResultsPageWebElements;
+import Tests.PageObject.ZakazUAStorePageWebElements;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

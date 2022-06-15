@@ -1,6 +1,6 @@
 package Tests.ZakazUA;
 
-import PageObject.ZakazUAHomePageWebElements;
+import Tests.PageObject.ZakazUAHomePageWebElements;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

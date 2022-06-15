@@ -1,8 +1,8 @@
 package Tests.ZakazUA;
 
-import PageObject.ZakazUAHomePageWebElements;
-import PageObject.ZakazUAOffersPageWebElements;
-import PageObject.ZakazUAStorePageWebElements;
+import Tests.PageObject.ZakazUAHomePageWebElements;
+import Tests.PageObject.ZakazUAOffersPageWebElements;
+import Tests.PageObject.ZakazUAStorePageWebElements;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
