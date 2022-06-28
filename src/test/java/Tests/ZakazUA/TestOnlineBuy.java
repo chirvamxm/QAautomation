@@ -1,6 +1,6 @@
 package Tests.ZakazUA;
 
-import PageObject.*;
+
 import Tests.PageObject.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,11 +10,11 @@ public class TestOnlineBuy extends TestInit{
     @Test
     public void onlineBuy(){
 
-        ZakazUAHomePageWebElements zakazUAHomePageWebElements=new ZakazUAHomePageWebElements(driver);
-        ZakazUAStorePageWebElements zakazUAStorePageWebElements =new ZakazUAStorePageWebElements(driver);
-        ZakazUaCategoriesPageWebElements zakazUaCategoriesPageWebElements=new ZakazUaCategoriesPageWebElements(driver);
-        ZakazUAResultsPageWebElements zakazUAResultsPageWebElements=new ZakazUAResultsPageWebElements(driver);
-        ZakazUaOrderPageWebElements zakazUaOrderPageWebElements=new ZakazUaOrderPageWebElements(driver);
+       ZakazUAHomePageWebElements zakazUAHomePageWebElements=new ZakazUAHomePageWebElements(driver);
+       ZakazUAStorePageWebElements zakazUAStorePageWebElements=new ZakazUAStorePageWebElements(driver);
+       ZakazUaCategoriesPageWebElements zakazUaCategoriesPageWebElements=new ZakazUaCategoriesPageWebElements(driver);
+       ZakazUAResultsPageWebElements zakazUAResultsPageWebElements=new ZakazUAResultsPageWebElements(driver);
+       ZakazUaOrderPageWebElements zakazUaOrderPageWebElements=new ZakazUaOrderPageWebElements(driver);
 
         goToZakazUAHomePage();
         fullScreen();
@@ -24,6 +24,7 @@ public class TestOnlineBuy extends TestInit{
         zakazUAResultsPageWebElements.antisepticSaniSilver460ml().click();
         zakazUAResultsPageWebElements.addToCartBtn().click();
         zakazUAStorePageWebElements.pickUpDeliveryTypeBtn().click();
+        zakazUAResultsPageWebElements.addKyivmarket().click();
         zakazUAStorePageWebElements.toShoppingBtn().click();
         zakazUAStorePageWebElements.cartBtn().click();
         zakazUAStorePageWebElements.toOrderBtn().click();

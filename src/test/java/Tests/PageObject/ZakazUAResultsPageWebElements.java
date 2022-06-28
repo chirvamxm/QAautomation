@@ -19,4 +19,7 @@ public class ZakazUAResultsPageWebElements extends BasePage {
     public WebElement addToCartBtn() {
         return getElementByXpath("//button[@class='jsx-44091497 btn btn-default AddButton AddButton_fullWidth'][@data-marker='Add to cart']");
     }
+    public WebElement addKyivmarket() {
+        return getElementByXpath("//div[@class='jsx-2819847497 Radio']");
+    }
 }
