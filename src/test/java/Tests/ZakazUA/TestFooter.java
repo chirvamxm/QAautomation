@@ -13,7 +13,7 @@ public class TestFooter extends TestInit {
 
         goToZakazUAHomePage();
         fullScreen();
-        Assert.assertTrue(zakazUAHomePageWebElements.getZakaznumber().isDisplayed());
+        Assert.assertTrue(zakazUAHomePageWebElements.getZakazNumber().isDisplayed());
         Assert.assertTrue(zakazUAHomePageWebElements.getZakazEmail().isDisplayed());
         Assert.assertTrue(zakazUAHomePageWebElements.getZakazFacebookPage().isDisplayed());
         Assert.assertTrue(zakazUAHomePageWebElements.getZakazInstagramPage().isDisplayed());
@@ -27,6 +27,7 @@ public class TestFooter extends TestInit {
         Assert.assertTrue(zakazUAHomePageWebElements.policyBtn().isDisplayed());
         Assert.assertTrue(zakazUAHomePageWebElements.termsBtn().isDisplayed());
         Assert.assertTrue(zakazUAHomePageWebElements.facebookPageFooterBtn().isDisplayed());
+
 
 
 
