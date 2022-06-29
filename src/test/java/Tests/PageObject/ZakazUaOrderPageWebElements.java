@@ -3,6 +3,8 @@ package Tests.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
+
 public class ZakazUaOrderPageWebElements extends BasePage {
     public ZakazUaOrderPageWebElements(WebDriver driver) {
         super(driver);
@@ -33,5 +35,10 @@ public class ZakazUaOrderPageWebElements extends BasePage {
     public WebElement registrationAlertMessage() {
         return getElementByXpath("//span[text()='Такий логін вже зареєстрований']");
     }
+
+    public List<WebElement> getSignInBtn(){
+        return getElementsByXpath("//button[@data-marker='Sign in']");
+    }
+
 
 }

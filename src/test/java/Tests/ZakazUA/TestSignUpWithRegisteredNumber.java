@@ -16,7 +16,7 @@ public class TestSignUpWithRegisteredNumber extends TestInit{
         goToZakazUAHomePage();
         fullScreen();
         zakazUAHomePageWebElements.megaMarketIcon().click();
-        zakazUaOrderPageWebElements.signInBtn().click();
+        zakazUaOrderPageWebElements.getSignInBtn().get(0).click();
         zakazUaOrderPageWebElements.registrationBtn().click();
         zakazUaOrderPageWebElements.getRegistrationField().click();
         zakazUaOrderPageWebElements.getRegistrationField().sendKeys("637444757\n");

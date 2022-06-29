@@ -163,5 +163,9 @@ public class ZakazUAStorePageWebElements extends BasePage {
         return getElementByXpath("//li[@title='Одяг та взуття']");
     }
 
+    public WebElement getAccountBtn() {
+        return getElementByXpath("//button[@data-testid='Account Button']");
+    }
+
 
 }
