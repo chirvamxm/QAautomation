@@ -27,5 +27,11 @@ public class ZakazUaOrderPageWebElements extends BasePage {
     public WebElement getOrderBtn() {
         return getElementByXpath("//button[@data-marker='Order'][@type='button']");
     }
+    public WebElement getRegistrationField() {
+        return getElementByXpath("//input[@id='your_mobile']");
+    }
+    public WebElement registrationAlertMessage() {
+        return getElementByXpath("//span[text()='Такий логін вже зареєстрований']");
+    }
 
 }
