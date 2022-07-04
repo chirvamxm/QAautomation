@@ -32,20 +32,8 @@ public class TestOnlineBuy extends TestInit{
         zakazUaOrderPageWebElements.logInField().sendKeys("+380637444757");
         zakazUaOrderPageWebElements.passwordField().click();
         zakazUaOrderPageWebElements.passwordField().sendKeys("12345qwerty");
-        zakazUaOrderPageWebElements.signInBtn().click();
+        zakazUaOrderPageWebElements.getSignInBtn().get(0).click();
         Assert.assertTrue(zakazUaOrderPageWebElements.getOrderBtn().isDisplayed());
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

@@ -3,6 +3,8 @@ package Tests.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
+
 public class ZakazUAHomePageWebElements extends BasePage {
     public ZakazUAHomePageWebElements(WebDriver driver) {
         super(driver);
@@ -56,8 +58,12 @@ public class ZakazUAHomePageWebElements extends BasePage {
 
     // FOOTER
 
-    public WebElement getZakaznumber() {
+    public WebElement getZakazNumber() {
         return getElementByXpath("//a[@href='tel:0800 20 20 20']");
+    }
+
+    public List<WebElement> getGoogleApp() {
+        return getElementsByXpath("//a[@href='https://play.google.com/store/apps/details?id=ua.zakaz.android&referrer=utm_source=google&utm_medium=web_cpc&utm_campaign=gclid_web_id_638954966.1656408957_web_site_zakaz.ua']");
     }
 
     public WebElement getZakazEmail() {

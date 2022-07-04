@@ -22,4 +22,26 @@ public class ZakazUAResultsPageWebElements extends BasePage {
     public WebElement addKyivmarket() {
         return getElementByXpath("//div[@class='jsx-2819847497 Radio']");
     }
+    // Sorting
+
+    public WebElement addExpenciveBtn(){
+        return getElementByXpath("//button[@data-marker='price_desc']");
+    }
+    public WebElement addCheapBtn(){
+        return getElementByXpath("//button[@data-marker='price_asc']");
+    }
+    public WebElement addPopularBtn(){
+        return getElementByXpath("//button[@data-marker='popularity_desc']");
+    }
+    // Items
+    public WebElement actimelStrawberries(){
+        return getElementByXpath("//a[@data-productkey='05410146415623']");
+    }
+    public WebElement funnyCherry(){
+        return getElementByXpath("//a[@data-productkey='04823065717173']");
+    }
+    public WebElement organicMilkRaspberry(){
+        return getElementByXpath("//a[@data-productkey='04820178810906']");
+    }
+
 }
